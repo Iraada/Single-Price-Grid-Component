@@ -1,0 +1,128 @@
+
+/* container */
+
+:root{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    min-height:100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f8fa;
+}
+.main{
+    width:355px;
+    margin-top: 8px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+}
+section{
+    padding: 1.8rem;
+}
+.title{
+    color: white;
+}
+h1{
+    margin-top:0;
+}
+
+/* Join our community */
+
+.header{
+    background-color: white;
+}
+.headerTitle{
+    color: #3bb59d;
+    font-size:27px;
+}
+.headerSubtitle{
+    color: #bedf35;
+}
+.headerText{
+    line-height:1.7em ;
+    color:hsl(217, 18%, 61%);
+    font-weight: 200;
+}
+
+
+/* Monthly Subscription */
+.signUp{
+    background-color: #35B5B4;
+}
+.signUp > p{
+    color:white;
+}
+.signUpText{
+    margin-bottom: 35px;
+}
+.price{
+    font-size:2.7rem;
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inlinetxt{
+    font-weight: 200;
+    font-size:15px;
+    color: #abecea;
+    margin-left: 3%;
+}
+button{
+    background-color: #bedf35 ;
+    width: 98%;
+    border: none;
+    padding:6% 30%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+/* Why Us */
+.whyUs{
+    background-color:#78C9C8;
+}
+
+.whyUs > p{
+    color:white;
+    line-height: 1.5rem ;
+    font-weight:200;
+    margin:0;
+    margin-top:16px;
+}
+
+@media screen and (min-width: 1000px){
+.main{
+    width: 700px;
+}
+section{
+    padding: 2.3rem;
+}
+.signUp{
+    width:50%;
+}
+.whyUs{
+    width:50%;
+}
+.col{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
